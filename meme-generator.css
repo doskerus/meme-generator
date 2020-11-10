@@ -1,0 +1,86 @@
+body {
+	font-size: 22px;
+	font-family: Arial;
+	background-color: thistle;
+	padding-left: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 300px;
+	font-weight: bold;
+	/* text-align: right; */
+}
+
+input {
+	font-size: 22px;
+	width: 800px;
+	margin: 10px;
+	padding: 10px;
+}
+
+button {
+	font-size: 22px;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background-color: slateblue;
+	/* background-color: royalblue; */
+	/* background-color: dodgerblue; */
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+section {
+	/* display: flex; */
+	justify-content: center;
+}
+
+.container {
+	width: 500px;
+	position: relative;
+	text-align: center;
+}
+
+.image {
+	/* width: 500px; */
+	width: 400px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.image:hover {
+	background-color: fuchsia;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.top {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Impact;
+	color: cornsilk;
+	-webkit-text-stroke: 2px black;
+	/* width: 450px; */
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bottom {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Impact;
+	color: cornsilk;
+	-webkit-text-stroke: 2px black;
+	/* width: 450px; */
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
